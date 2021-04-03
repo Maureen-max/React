@@ -1,0 +1,12 @@
+function Button(){
+
+const[counter,setCounter] = usestate(0);
+return (
+<button onClick = {() => setCounter (counter +1 )} > {counter}</button>
+);
+
+ReactDOM.render(
+
+<Button/>,
+document.getElementById(root),
+}
